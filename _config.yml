@@ -1,1 +1,23 @@
-theme: jekyll-theme-cayman
+title:              Sebung Bandung
+email:              sebungbandung@gmail.com
+description:        A Blog about our activity
+author:             Sebung Bandung
+# baseurl:            "/"
+# url:                "https://blackrockdigital.github.io"
+
+# Social Profiles
+twitter_username:   sebungbdg
+github_username:    sebungbdg
+instagram_username:  sebung_bdg
+
+# Add your google-analytics ID here to activate google analytics
+google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
